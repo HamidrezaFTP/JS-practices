@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Vazir";
+  src: url("./fonts/Vazir.eot");
+  /* IE9 Compat Modes */
+  src: url("./fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Vazir.woff2") format("woff2"),
+    url("./fonts/Vazir.woff") format("woff"),
+    url("./fonts/Vazir.ttf") format("truetype");
+  /* Safari, Android, iOS */
+}
+
+html {
+    color: black;
+    font-family: 'Vazir', serif;
+}
+
+body {
+    margin: 0;
+}
+
+.hero {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-style: 5rem;
+}
